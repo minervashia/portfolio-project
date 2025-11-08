@@ -1,0 +1,33 @@
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+
+
+
+h1{
+    color:black;
+    font-family: "Playfair Display",serif;
+    font-weight:bold;
+}
+p{
+    font-family: "Playfair Display", serif;
+    font-weight:normal;
+}
+
