@@ -7,6 +7,10 @@
     <link rel="stylesheet"href="styles/portfolio.css">
     <meta name="viewpoint" content="width=device-width
     ,initial-scale=1.0"/>
+
+    <meta name="description"content="Patricia's work portfolio. Patricia is a professional front-end engineer based in Portugal">
+    <title>Work Portfolio - Patricia Pereira</title>
+
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +30,36 @@
     <title>Work</title>
 </head>
 <body>
+ <div class="container">
+            <nav class="d-flex justify-content-between"> 
+                <a href="/" title="Homepage">  
+        <img src="images/logo.png"class="logo d-none d-md-block" alt="Patricia Logo" />
+        
+        <img src="images/logo-small.jpg"
+        class="logo d-block d-md-none" alt="Patricia Logo" />
+       </a> 
+        <ul>    
+            <li >
+                <a href="/" title="Homepage">Home</a>
+            
+            </li>
+            <li>
+                <a href="/about.html"title="About Patricia">About</a>
+               </li>
+            <li class="active">
+                <a href="/work.html" title="Patricia's work">Work</a>
+               
+            </li>
+            <li>
+            <a href="/contact.html" title=" Contact Patricia">Contact</a>
+            </li>      
+        </ul>
+        </div>  
+    </nav>
+
+
+
+
     <div class="content-container container">
         
                 <div class="content">
@@ -33,7 +67,7 @@
     <div class="row">
         <div class="col-md-6 mb-4">
             <img src="images/yogurt.png"
-            class="img-fluid mb-3 rounded" alt="" />
+            class="img-fluid mb-3 rounded" alt="Yogurt project preview" />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted"> Built with HTML and CSS</p>
         </div>
@@ -41,7 +75,7 @@
 
         <div class="col-md-6 mb-4">
             <img src="images/weather.png"
-            class="img-fluid mb-3 rounded" alt="" />
+            class="img-fluid mb-3 rounded" alt="Weather project preview" />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center text-muted"> Built with HTML, CSS and JavaScript</p>
         </div>
@@ -49,14 +83,14 @@
 
         <div class="col-md-6 mb-4">
             <img src="images/dictionary.png"
-            class="img-fluid mb-3 rounded" alt="" />
+            class="img-fluid mb-3 rounded" alt="Dictionary app preview" />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted"> Built with HTML, CSS and React</p>
         </div>
 
          <div class="col-md-6 mb-4">
             <img src="images/translation.png"
-            class="img-fluid mb-3 rounded" alt="" />
+            class="img-fluid mb-3 rounded" alt="Translation app preview " />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted"> Built with HTML, CSS and React</p>
         </div>
@@ -65,7 +99,46 @@
 
 </div>
 </div>
+ <footer class="container">
+        <div class="contact-box  justify-content-between
+         mb-5 d-none d-md-flex">
+            <div>  
+            <h4> Work inquiry</h4>
+            <p class="text-muted"> Let's work together</p>
+            </div>
 
+            <div>
+            <a href="/contact.html" class=" btn btn-branding mb-5" title="Contact Patricia">Contact me</a>
+        </div>
+       </div>
+        <div class="d-flex justify-content-center mb-5">    
+          <a href="mailto:patricia@gmail.com"
+          class="email-link" tittle="Email Patricia">
+        patricia@gmail.com
+    </a>
+</div>
+
+    <div class="social-links d-flex justify-content-center ">
+        
+       <a href="https://www.github.com/patricia"target="_blank"title="GitHub Profile" >
+        
+             <i class="fab fa-github"></i>
+            </a>
+             <a href="https://www.instagram.com/patricia"target="_blank"title="Instagram Profile" >
+        
+             <i class="fab fa-instagram"></i>
+            </a>
+             <a href="https://www.twitter.com/patricia"target="_blank"title="Twitter Profile" >
+             <i class="fab fa-twitter"></i>
+            </a>
+         </div>
+         <p class="text-center mt-5"> 
+✌ This project was coded by Minervashia, and it is 
+<a  href="https://github.com/minervashia/portfolio-project">
+open sourced
+</a>
+         </p>     
+    </footer>
     
     
 </body>
